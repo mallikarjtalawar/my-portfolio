@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import Lottie from 'lottie-react';
 import React from 'react';
-import developerAnimation from '../assets/animations/developer.json';
+import developerThinkingAnimation from '../assets/animations/developerThinking.json';
 
 export default function About() {
   const fadeIn = {
@@ -88,7 +88,7 @@ export default function About() {
             whileHover={{ scale: 1.02 }}
             transition={{ type: 'spring', stiffness: 300, damping: 20 }}
           >
-            <Lottie animationData={developerAnimation} loop={true} />
+            <Lottie animationData={developerThinkingAnimation} loop={true} />
           </motion.div>
 
           {/* Optional: Add Timeline Later */}

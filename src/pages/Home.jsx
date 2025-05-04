@@ -1,5 +1,6 @@
 import About from "../components/about";
 import Connect from "../components/connect";
+import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import Projects from "../components/projects";
@@ -13,6 +14,7 @@ function Home() {
       <Skills />
       <About />
       <Connect />
+      <Footer />
     </>
   );
 }

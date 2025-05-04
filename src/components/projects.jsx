@@ -6,19 +6,16 @@ const projects = [
   {
     title: "E-Commerce Dashboard",
     desc: "Built with React & Firebase. A fully functional admin dashboard with real-time data.",
-    link: "#",
     tags: ["Angular","Typescript", "Java", "Tailwind"],
   },
   {
     title: "Google Clone",
     desc: "A clone of Google Search page with responsive design and search functionality.",
-    link: "#",
     tags: ["React", "Tailwind", "JavaScript"],
   },
   {
     title: "Portfolio Website",
     desc: "This website you're looking at — built with React, Tailwind, and Framer Motion.",
-    link: "#",
     tags: ["React", "Tailwind", "Framer Motion"],
   }
  
@@ -91,9 +88,9 @@ export default function Projects() {
                 </div>
 
                 {/* View Project Link */}
-                <div className="mt-6 text-blue-400 group-hover:underline inline-flex items-center">
+                {/* <div className="mt-6 text-blue-400 group-hover:underline inline-flex items-center">
                   View Project →
-                </div>
+                </div> */}
               </div>
             </motion.a>
           ))}

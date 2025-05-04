@@ -54,7 +54,7 @@ export default function Navbar() {
           </ul>
 
           {/* Dark Mode Button */}
-          <button
+          {/* <button
             onClick={toggleDarkMode}
             className="ml-4 p-2 rounded-full hover:bg-gray-800 transition-colors duration-150"
             aria-label="Toggle Dark Mode"
@@ -76,7 +76,7 @@ export default function Navbar() {
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
               </svg>
             )}
-          </button>
+          </button> */}
 
           {/* Mobile Menu Button */}
           <button
@@ -110,7 +110,7 @@ export default function Navbar() {
             <li><NavLink to="about" onClick={() => setIsMenuOpen(false)}>About</NavLink></li>
             <li><NavLink to="contact" onClick={() => setIsMenuOpen(false)}>Connect</NavLink></li>
             <li><NavLink to="skills" onClick={() => setIsMenuOpen(false)}>Skills</NavLink></li>
-
+{/* 
             <li className="pt-2 border-t border-gray-700 mt-2">
               <button
                 onClick={toggleDarkMode}
@@ -140,7 +140,7 @@ export default function Navbar() {
                   </>
                 )}
               </button>
-            </li>
+            </li> */}
           </ul>
         </div>
       )}
