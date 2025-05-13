@@ -1,7 +1,6 @@
 // src/components/About.jsx
 import { motion } from 'framer-motion';
 import Lottie from 'lottie-react';
-import React from 'react';
 import developerThinkingAnimation from '../assets/animations/developerThinking.json';
 
 export default function About() {
@@ -38,8 +37,9 @@ export default function About() {
             variants={fadeIn}
           >
             Hi Everyone, I am Mallikarjun from karnataka, India.
-            I am currently employed as a software developer.
-            I have completed my B.Tech in Electrical and Electronics Engineering from UVCE college, Bangalore.
+            I'm currently working as a software developer, 
+            where I focus on building efficient, reliable, and scalable solutions. 
+            I have a strong foundation in engineering and a passion for solving real-world problems through code. I'm always eager to learn new technologies and grow as a developer.
           </motion.p>
 
           <motion.p
