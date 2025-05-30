@@ -5,8 +5,8 @@ import React from 'react';
 const projects = [
   {
     title: "E-Commerce Dashboard",
-    desc: "Built with React & Firebase. A fully functional admin dashboard with real-time data.",
-    tags: ["Angular","Typescript", "Java", "Tailwind"],
+    desc: "Built with Angular & Java. A fully functional admin dashboard with real-time data.",
+    tags: ["Angular","Java", "Typescript", "Tailwind"],
   },
   {
     title: "Google Clone",
